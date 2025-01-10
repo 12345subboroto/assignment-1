@@ -110,7 +110,7 @@
 
 *{
     margin: 5px 15px;
-
+   
 }  
 /*nav style*/
 nav ul{
@@ -209,17 +209,17 @@ main section{
 .futureone{
   background-color:rgba(84, 144, 245, 0.2) ;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .futuretwo{
   background-color:rgba(198, 228, 214, 1) ;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .futurethree{
   background-color:rgba(247, 235, 207, 1) ;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .btn-one{
 background-color: rgba(255, 194, 57, 1);
@@ -247,4 +247,101 @@ font-size: 16px;
 font-weight: 600;
 border: none;
 border-radius: 5px;
+}
+/* chief style*/
+
+.chief{
+  background-color: rgba(255, 255, 255, 1);
+  height: 200px;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  align-items: center;
+  padding: 50px 0px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.chief-description{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+}
+.chief-title{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+}
+.chief-sub-title{
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
+/*box style*/
+.box1-left{
+
+
+}
+.box-title{
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: bold;
+}
+.box-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.box1-title{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: bold;
+}
+.date{
+  display: flex;
+  align-items: center;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 0px;
+  gap: 12px;
+}
+.box1{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 50px;
+  align-items: center;
+  box-shadow:  4px 4px 8px gray;
+  border-radius: 10px;
+  text-align: justify;
+}
+.box2{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 50px;
+  align-items: center;
+  box-shadow:  4px 4px 8px gray;
+  border-radius: 10px;
+  text-align: justify;
+}
+.box3{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 50px;
+  align-items: center;
+  box-shadow:  4px 4px 8px gray;
+  border-radius: 10px;
+  text-align: justify;
+}
+.btn-primary{
+  background-color: rgba(0, 106, 80, 1);
+  padding: 13px 26px;
+  color:rgba(255, 255, 255, 1) ;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
 }
