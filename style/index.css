@@ -167,6 +167,10 @@ nav ul li{
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
   font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: azure;
 }
 main section{
   margin-top: 80px;
@@ -205,6 +209,7 @@ main section{
 .futures-container{
   display: flex;
   gap: 24px;
+  margin-top: 30px;
 }
 .futureone{
   background-color:rgba(84, 144, 245, 0.2) ;
@@ -230,6 +235,11 @@ font-weight: 600;
 border: none;
 border-radius: 5px;
 }
+.btn-one:hover{
+  background-color:rgb(182, 132, 17) ;
+  cursor: pointer;
+  transition: 0.3s;
+}
 .btn-two{
   background-color: rgba(9, 161, 92, 1);
   padding: 11px 20px;
@@ -238,6 +248,11 @@ border-radius: 5px;
   font-weight: 600;
  border: none;
  border-radius: 5px;
+}
+.btn-two:hover{
+  background-color: rgb(3, 97, 55); 
+  cursor: pointer;
+  transition: 0.3s;
 }
 .btn-three{
   background-color: rgba(84, 144, 245, 1);
@@ -248,6 +263,12 @@ font-weight: 600;
 border: none;
 border-radius: 5px;
 }
+.btn-three:hover{
+  background-color: rgb(27, 73, 151);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 /* chief style*/
 
 .chief{
@@ -344,4 +365,64 @@ border-radius: 5px;
   font-size: 18px;
   font-weight: 600;
   border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-primary:hover{
+  background-color:rgb(4, 207, 156) ;
+}
+/*donate style*/
+.donate{
+  text-align: center;
+  padding: 0px 88px;
+
+}
+.button{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+
+}
+.btn-primary-one{
+  background-color: rgba(14, 14, 14, 0.15);
+  border: none;
+  border-radius: 7px;
+  padding: 20px;
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: bold;
+  font-size: 40px;
+}
+.btn-primary-change{
+  background-color:rgba(198, 228, 214, 1) ;
+  padding: 20px;
+  border: none;
+  border-radius: 7px;
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: bold;
+  font-size: 40px;
+}
+.btn-primary-one:hover{
+  background-color: rgb(177, 175, 175);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-primary-change:hover{
+  background-color: rgb(177, 175, 175);
+  cursor: pointer;
+}
+.donate input[type="text"]{
+  height: 64px;
+  width: 95%;
+  padding-left: 15px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border: none;
+  display: block;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 1);
+  margin-bottom: 32px;
 }
