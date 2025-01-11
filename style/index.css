@@ -109,31 +109,32 @@
 
 
 *{
-    margin: 5px 15px;
+  max-width: 1140px;
+    margin: 0 auto;
    
 }  
 /*nav style*/
 nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  margin-left: 0px;
+
 }
 nav ul li{
-    list-style: none;
+  list-style: none;
 }
 .nav-title{
-    color: rgba(14, 14, 14, 1);
-    font-size: 32px;
-    font-weight: bold;
+  color: rgba(14, 14, 14, 1);
+  font-size: 32px;
+  font-weight: bold;
 }
 .nav-button{
-    color: rgba(0, 106, 80, 1);
-    background-color: white;
-    font-weight: 600;
-    font-size: 18px;
-    padding: 18px 35px;
-    border-radius: 5px;
-    
+  color: rgba(0, 106, 80, 1);
+  background-color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 18px 35px;
+  border-radius: 5px;
+  
 }
 /*hero style*/
 .hero{
@@ -297,9 +298,9 @@ border-radius: 5px;
   font-weight: 400;
 }
 /*box style*/
-.box1-left{
+.box1-left img{
 
-
+ border-radius: 5px;
 }
 .box-title{
   color: rgba(14, 14, 14, 1);
@@ -385,7 +386,6 @@ border-radius: 5px;
   display: flex;
   gap: 24px;
   justify-content: space-between;
-
 }
 .btn-primary-one{
   background-color: rgba(14, 14, 14, 0.15);
@@ -425,4 +425,64 @@ border-radius: 5px;
   text-align: center;
   background-color: rgba(255, 255, 255, 1);
   margin-bottom: 32px;
+}
+/*footer style*/
+.footer{
+  background-color: rgba(198, 228, 214, 1);
+  height: 335px;
+  border-radius: 24px;
+  padding: 80px 160px;
+}
+.footer-container{
+  text-align: center;
+  justify-content: center;
+  padding: 40px 100px;
+
+}
+.input-container{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: relative;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.input-button{
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+  padding: 18px 404px 18px 40px;
+  margin-left: 0px;
+}
+.button-input{
+  position: absolute;
+  border: none;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+  padding: 17px 34px;
+  background-color: rgba(0, 106, 80, 1);
+  color: white;
+}
+.button-input:hover{
+  background-color:rgb(7, 46, 36) ;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+/*footer end style*/
+.footer-end{
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.footer-end .footer-end-title{
+  color: rgba(14, 14, 14, 1);
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 64px;
+}
+.footer-end a{
+  gap: 24px;
 }
