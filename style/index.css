@@ -141,14 +141,12 @@ nav ul li{
   background-color: rgba(198, 228, 214, 1);
   display: flex;
   background-position: center;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 560px;
-  gap: 64px;
-  border-radius: 15px;
-  padding-left: 27px;
-  padding-right: 27px;
-
+  gap:64px;
+  border-radius:24px ;
+  padding: 100px 80px;
 }
 .hero-title{
   color: rgba(14, 14, 14, 0.5);
@@ -163,15 +161,16 @@ nav ul li{
 .btn{
   background-color: rgba(0, 106, 80, 1);
   padding: 17px 34px;
-  border-radius: 5px;
+  border-radius: 8px;
   border: none;
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
+  margin-top: 24px;
 }
 .btn:hover{
-  background-color: azure;
+  background-color: rgb(7, 51, 51);
 }
 main section{
   margin-top: 80px;
@@ -196,36 +195,47 @@ main section{
 
 }
 /*future style*/
+.future-sub-title{
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.future-title{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 24px;
+}
 .future-description{
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
   font-weight: bold;
 }
 .text-padding{
-  padding-left: 15px;
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
   font-weight: bold;
 }
 .futures-container{
   display: flex;
-  gap: 24px;
-  margin-top: 30px;
+  gap:24px;
+  margin-top:30px;
 }
 .futureone{
   background-color:rgba(84, 144, 245, 0.2) ;
-  padding: 15px;
-  border-radius: 10px;
+  padding:32px;
+  border-radius:16px;
 }
 .futuretwo{
   background-color:rgba(198, 228, 214, 1) ;
-  padding: 15px;
-  border-radius: 10px;
+  padding:32px;
+  border-radius:16px;
 }
 .futurethree{
   background-color:rgba(247, 235, 207, 1) ;
-  padding: 15px;
-  border-radius: 10px;
+  padding: 32px;
+  border-radius:16px;
 }
 .btn-one{
 background-color: rgba(255, 194, 57, 1);
@@ -234,7 +244,8 @@ color: rgba(255, 255, 255, 1);
 font-size: 16px;
 font-weight: 600;
 border: none;
-border-radius: 5px;
+border-radius: 8px;
+margin-top: 24px;
 }
 .btn-one:hover{
   background-color:rgb(182, 132, 17) ;
@@ -248,7 +259,8 @@ border-radius: 5px;
   font-size: 16px;
   font-weight: 600;
  border: none;
- border-radius: 5px;
+ border-radius: 8px;
+ margin-top: 24px;
 }
 .btn-two:hover{
   background-color: rgb(3, 97, 55); 
@@ -262,7 +274,8 @@ color: rgba(255, 255, 255, 1);
 font-size: 16px;
 font-weight: 600;
 border: none;
-border-radius: 5px;
+border-radius: 8px;
+margin-top: 24px;
 }
 .btn-three:hover{
   background-color: rgb(27, 73, 151);
@@ -273,24 +286,27 @@ border-radius: 5px;
 /* chief style*/
 
 .chief{
-  background-color: rgba(255, 255, 255, 1);
-  height: 200px;
+  background-color: rgb(236, 234, 234);
+  height: 160px;
   background-image: url(../assets/quote-bg.png);
   background-repeat: no-repeat;
   align-items: center;
-  padding: 50px 0px;
-  border-radius: 10px;
-  margin-left: 10px;
+  border-radius: 16px;
+  padding: 48px 24px;
+ background-position: left 25px top 24px;
 }
+
 .chief-description{
   color: rgba(14, 14, 14, 0.8);
   font-size: 16px;
   font-weight: 400;
+  margin-bottom: 12px;
 }
 .chief-title{
   color: rgba(14, 14, 14, 0.8);
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 4px;
 }
 .chief-sub-title{
   color: rgba(14, 14, 14, 0.6);
@@ -299,13 +315,13 @@ border-radius: 5px;
 }
 /*box style*/
 .box1-left img{
-
- border-radius: 5px;
+ border-radius: 24px;
 }
 .box-title{
   color: rgba(14, 14, 14, 1);
   font-size: 40px;
   font-weight: bold;
+  margin-bottom: 24px;
 }
 .box-description{
   color: rgba(14, 14, 14, 0.7);
@@ -317,46 +333,45 @@ border-radius: 5px;
   font-size: 32px;
   font-weight: bold;
 }
-.date{
+.time{
   display: flex;
-  align-items: center;
-  color: rgba(14, 14, 14, 0.7);
-  font-size: 16px;
-  font-weight: 400;
+  justify-content: space-around;
   margin-left: 0px;
-  gap: 12px;
 }
-.box1{
+ .box1{
+  padding: 48px;
   display: flex;
-  width: 100%;
+  gap: 32px;
   margin: 0 auto;
   justify-content: space-around;
   margin-top: 50px;
   align-items: center;
   box-shadow:  4px 4px 8px gray;
-  border-radius: 10px;
+  border-radius: 24px;
   text-align: justify;
-}
+} 
 .box2{
+  padding: 48px;
   display: flex;
-  width: 100%;
+  gap: 32px;
   margin: 0 auto;
   justify-content: space-around;
   margin-top: 50px;
   align-items: center;
   box-shadow:  4px 4px 8px gray;
-  border-radius: 10px;
+  border-radius: 24px;
   text-align: justify;
 }
 .box3{
+  padding: 48px;
   display: flex;
-  width: 100%;
+  gap: 32px;
   margin: 0 auto;
   justify-content: space-around;
   margin-top: 50px;
   align-items: center;
   box-shadow:  4px 4px 8px gray;
-  border-radius: 10px;
+  border-radius: 24px;
   text-align: justify;
 }
 .btn-primary{
@@ -369,6 +384,7 @@ border-radius: 5px;
   border: none;
   cursor: pointer;
   transition: 0.3s;
+  margin-top: 32px;
 }
 .btn-primary:hover{
   background-color:rgb(4, 207, 156) ;
@@ -377,7 +393,8 @@ border-radius: 5px;
 .donate{
   text-align: center;
   padding: 0px 88px;
-
+  height: 464px;
+  margin-top: 80px;
 }
 .button{
   margin-top: 32px;
@@ -385,13 +402,13 @@ border-radius: 5px;
   width: 100%;
   display: flex;
   gap: 24px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .btn-primary-one{
   background-color: rgba(14, 14, 14, 0.15);
   border: none;
   border-radius: 7px;
-  padding: 20px;
+  padding: 40px;
   color: rgba(14, 14, 14, 0.8);
   font-weight: bold;
   font-size: 40px;
@@ -428,8 +445,9 @@ border-radius: 5px;
 }
 /*footer style*/
 .footer{
+  margin-top: 80px;
   background-color: rgba(198, 228, 214, 1);
-  height: 335px;
+  height: 395px;
   border-radius: 24px;
   padding: 80px 160px;
 }
